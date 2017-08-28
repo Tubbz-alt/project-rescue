@@ -1,0 +1,1 @@
+=IF(COUNTIF('Release Plan'!X4:X72,"Complete")=0,0,COUNTIF('Release Plan'!Y4:Y72,"$")/COUNTIF('Release Plan'!X4:X72,"Complete"))

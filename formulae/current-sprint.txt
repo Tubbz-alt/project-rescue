@@ -1,0 +1,19 @@
+=IF(AND(TODAY()>=B2,TODAY()<=C2),A2,
+  IF(AND(TODAY()>=B3,TODAY()<=C3),A3,
+    IF(AND(TODAY()>=B4,TODAY()<=C4),A4,
+      IF(AND(TODAY()>=B5,TODAY()<=C5),A5,
+        IF(AND(TODAY()>=B6,TODAY()<=C6),A6,
+          IF(AND(TODAY()>=B7,TODAY()<=C7),A7,
+            IF(AND(TODAY()>=B8,TODAY()<=C8),A8,
+              IF(AND(TODAY()>=B9,TODAY()<=C9),A9,
+                IF(AND(TODAY()>=B10,TODAY()<=C10),A10,
+                  IF(AND(TODAY()>=B11,TODAY()<=C16),26)
+                )
+              )
+            )
+          )
+        )
+      )
+    )
+  )
+)

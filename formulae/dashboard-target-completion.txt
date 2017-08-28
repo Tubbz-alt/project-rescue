@@ -1,0 +1,29 @@
+=IF(C1=18,'Release Plan'!G85,
+  IF(C1=19, 'Release Plan'!H85, 
+    IF(C1=20, 'Release Plan'!I85, 
+      IF(C1=21, 'Release Plan'!J85, 
+        IF(C1=22, 'Release Plan'!K85, 
+          IF(C1=23, 'Release Plan'!L85, 
+            IF(C1=24, 'Release Plan'!M85, 
+              IF(C1=25, 'Release Plan'!N85, 
+                IF(C1=26, 'Release Plan'!O85, 
+                  IF(C1=27, 'Release Plan'!P85, 
+                    IF(C1=28, 'Release Plan'!Q85, 
+                      IF(C1=29, 'Release Plan'!R85, 
+                        IF(C1=30, 'Release Plan'!S85, 
+                          IF(C1=31, 'Release Plan'!T85, 
+                            IF(C1=32, 'Release Plan'!U85, 'Release Plan'!G85)
+                          )
+                        )
+                      )
+                    )
+                  )
+                )
+              )
+            )
+          )
+        )
+      )
+    )
+  )
+)

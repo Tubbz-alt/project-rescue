@@ -1,0 +1,11 @@
+=DATEDIF(TODAY(),
+  IF(D1=1,'Sprint Data'!B4,
+    IF(D1=2,'Sprint Data'!B6,
+      IF(D1=3,'Sprint Data'!B8,
+        IF(D1=4,'Sprint Data'!B10,
+          IF(D1=5,'Sprint Data'!B12,'Sprint Data'!C16)
+        )
+      )
+    )
+  )
+,"D")

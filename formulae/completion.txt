@@ -1,0 +1,10 @@
+=(
+  (V87)
+  /
+  (
+    COUNTIF(F4:F22, "<=" & INDIRECT("Sprint Data!H2"))+
+    COUNTIF(F30:F40, "<=" & INDIRECT("Sprint Data!H2"))+
+    COUNTIF(F48:F55, "<=" & INDIRECT("Sprint Data!H2"))+
+    COUNTIF(F63:F71, "<=" & INDIRECT("Sprint Data!H2"))
+  )
+)

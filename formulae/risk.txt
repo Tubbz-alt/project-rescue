@@ -1,0 +1,1 @@
+=((((COUNTIF(Y4:Y72,"!")*RiskBlocker)+(COUNTIF(Y4:Y72,"~")*RiskDelay)+(COUNTIF(Y4:Y72,"$")*RiskDebt)+(COUNTIF(Y4:Y72,"-")*RiskEarlyDelivery))+((X76+X60+X45+X27)/RiskDeficit))/SUM(W72,W56,W41,W23))

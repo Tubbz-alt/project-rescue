@@ -1,0 +1,1 @@
+=(IF('Release Plan'!H23 > 'Release Plan'!G23,"+",IF('Release Plan'!H23 < 'Release Plan'!G23,"-","=")))
